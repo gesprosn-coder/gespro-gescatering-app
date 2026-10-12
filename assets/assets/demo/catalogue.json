@@ -1,0 +1,738 @@
+{
+ "source": "REVUE-CATALOGUE-OCTOBRE-2026.xlsx",
+ "note": "Catalogue de démonstration — lignes « Créer » de la revue, non encore validée par SESA.",
+ "products": [
+  {
+   "reference": "CDT-001",
+   "name": "Crevette sechee",
+   "category": "Condiments",
+   "unit": "kg"
+  },
+  {
+   "reference": "CDT-002",
+   "name": "Guedj beurre",
+   "category": "Condiments",
+   "unit": "kg"
+  },
+  {
+   "reference": "CDT-003",
+   "name": "Guedj kong",
+   "category": "Condiments",
+   "unit": "kg"
+  },
+  {
+   "reference": "CDT-004",
+   "name": "Keithia",
+   "category": "Condiments",
+   "unit": "kg"
+  },
+  {
+   "reference": "CDT-005",
+   "name": "Kong fume",
+   "category": "Condiments",
+   "unit": "kg"
+  },
+  {
+   "reference": "CDT-006",
+   "name": "Pagne",
+   "category": "Condiments",
+   "unit": "kg"
+  },
+  {
+   "reference": "CDT-007",
+   "name": "Yet",
+   "category": "Condiments",
+   "unit": "kg"
+  },
+  {
+   "reference": "CDT-008",
+   "name": "Yet bou sew",
+   "category": "Condiments",
+   "unit": "kg"
+  },
+  {
+   "reference": "CSM-003",
+   "name": "Carton pizza",
+   "category": "Consommables",
+   "unit": "pack"
+  },
+  {
+   "reference": "CSM-004",
+   "name": "Charbon",
+   "category": "Consommables",
+   "unit": "sac"
+  },
+  {
+   "reference": "CSM-005",
+   "name": "Gant",
+   "category": "Consommables",
+   "unit": "pack"
+  },
+  {
+   "reference": "CSM-006",
+   "name": "Gobelet cafe",
+   "category": "Consommables",
+   "unit": "paquet"
+  },
+  {
+   "reference": "CSM-008",
+   "name": "Moule gratin",
+   "category": "Consommables",
+   "unit": "piece"
+  },
+  {
+   "reference": "CSM-009",
+   "name": "Papier alu gm",
+   "category": "Consommables",
+   "unit": "piece"
+  },
+  {
+   "reference": "CSM-010",
+   "name": "Papier film",
+   "category": "Consommables",
+   "unit": "piece"
+  },
+  {
+   "reference": "CSM-011",
+   "name": "Papier sandwich",
+   "category": "Consommables",
+   "unit": "kg"
+  },
+  {
+   "reference": "CSM-012",
+   "name": "Pick brochette deco",
+   "category": "Consommables",
+   "unit": "pack"
+  },
+  {
+   "reference": "CSM-013",
+   "name": "Pick brochette gm",
+   "category": "Consommables",
+   "unit": "pack"
+  },
+  {
+   "reference": "CSM-014",
+   "name": "Pot pizza gobelets",
+   "category": "Consommables",
+   "unit": "paquet"
+  },
+  {
+   "reference": "CSM-015",
+   "name": "Sachet croissant",
+   "category": "Consommables",
+   "unit": "paquet"
+  },
+  {
+   "reference": "CSM-016",
+   "name": "Sachet emporte",
+   "category": "Consommables",
+   "unit": "piece"
+  },
+  {
+   "reference": "CSM-017",
+   "name": "Sachet jaune de 100f",
+   "category": "Consommables",
+   "unit": "pack"
+  },
+  {
+   "reference": "CSM-018",
+   "name": "Serviette de table",
+   "category": "Consommables",
+   "unit": "carton"
+  },
+  {
+   "reference": "ENT-001",
+   "name": "Ballaie",
+   "category": "Produits d'entretien",
+   "unit": "pack"
+  },
+  {
+   "reference": "ENT-002",
+   "name": "Creme a recurer",
+   "category": "Produits d'entretien",
+   "unit": "pack"
+  },
+  {
+   "reference": "ENT-003",
+   "name": "Eau de javel",
+   "category": "Produits d'entretien",
+   "unit": "tas"
+  },
+  {
+   "reference": "ENT-004",
+   "name": "Eponge en fer",
+   "category": "Produits d'entretien",
+   "unit": "pack"
+  },
+  {
+   "reference": "ENT-005",
+   "name": "Lave vitre",
+   "category": "Produits d'entretien",
+   "unit": "pack"
+  },
+  {
+   "reference": "ENT-006",
+   "name": "Madar gm",
+   "category": "Produits d'entretien",
+   "unit": "carton"
+  },
+  {
+   "reference": "ENT-007",
+   "name": "Raclette",
+   "category": "Produits d'entretien",
+   "unit": "pack"
+  },
+  {
+   "reference": "ENT-008",
+   "name": "Serpillere",
+   "category": "Produits d'entretien",
+   "unit": "pack"
+  },
+  {
+   "reference": "FRO-001",
+   "name": "Capitaine",
+   "category": "Froid - viandes et poissons",
+   "unit": "kg"
+  },
+  {
+   "reference": "FRO-002",
+   "name": "Poisson dorade",
+   "category": "Froid - viandes et poissons",
+   "unit": "kg"
+  },
+  {
+   "reference": "FRO-003",
+   "name": "Poisson gm",
+   "category": "Froid - viandes et poissons",
+   "unit": "kg"
+  },
+  {
+   "reference": "FRO-004",
+   "name": "Poisson lotte",
+   "category": "Froid - viandes et poissons",
+   "unit": "kg"
+  },
+  {
+   "reference": "FRO-005",
+   "name": "Poulet blanc",
+   "category": "Froid - viandes et poissons",
+   "unit": "kg"
+  },
+  {
+   "reference": "FRO-006",
+   "name": "Poulets",
+   "category": "Froid - viandes et poissons",
+   "unit": "piece"
+  },
+  {
+   "reference": "FRO-007",
+   "name": "Viande hachee",
+   "category": "Froid - viandes et poissons",
+   "unit": "kg"
+  },
+  {
+   "reference": "FRO-009",
+   "name": "Viande locale",
+   "category": "Froid - viandes et poissons",
+   "unit": "kg"
+  },
+  {
+   "reference": "LEG-001",
+   "name": "Bissap kouthia",
+   "category": "Fruits et légumes",
+   "unit": "seau"
+  },
+  {
+   "reference": "LEG-002",
+   "name": "Brocolis",
+   "category": "Fruits et légumes",
+   "unit": "kg"
+  },
+  {
+   "reference": "LEG-003",
+   "name": "Carotte",
+   "category": "Fruits et légumes",
+   "unit": "kg"
+  },
+  {
+   "reference": "LEG-004",
+   "name": "Chou",
+   "category": "Fruits et légumes",
+   "unit": "kg"
+  },
+  {
+   "reference": "LEG-005",
+   "name": "Citron vert",
+   "category": "Fruits et légumes",
+   "unit": "kg"
+  },
+  {
+   "reference": "LEG-006",
+   "name": "Concombre",
+   "category": "Fruits et légumes",
+   "unit": "kg"
+  },
+  {
+   "reference": "LEG-007",
+   "name": "Courgette",
+   "category": "Fruits et légumes",
+   "unit": "kg"
+  },
+  {
+   "reference": "LEG-008",
+   "name": "Gombon",
+   "category": "Fruits et légumes",
+   "unit": "kg"
+  },
+  {
+   "reference": "LEG-009",
+   "name": "Haricot vert",
+   "category": "Fruits et légumes",
+   "unit": "kg"
+  },
+  {
+   "reference": "LEG-010",
+   "name": "Manioc",
+   "category": "Fruits et légumes",
+   "unit": "kg"
+  },
+  {
+   "reference": "LEG-011",
+   "name": "Oignon vert",
+   "category": "Fruits et légumes",
+   "unit": "tas"
+  },
+  {
+   "reference": "LEG-012",
+   "name": "Patate",
+   "category": "Fruits et légumes",
+   "unit": "kg"
+  },
+  {
+   "reference": "LEG-013",
+   "name": "Peril ordinnaire",
+   "category": "Fruits et légumes",
+   "unit": "tas"
+  },
+  {
+   "reference": "LEG-014",
+   "name": "Persil chinois",
+   "category": "Fruits et légumes",
+   "unit": "tas"
+  },
+  {
+   "reference": "LEG-015",
+   "name": "Petit bpois surgele",
+   "category": "Fruits et légumes",
+   "unit": "kg"
+  },
+  {
+   "reference": "LEG-016",
+   "name": "Piment gouana sofia",
+   "category": "Fruits et légumes",
+   "unit": "kg"
+  },
+  {
+   "reference": "LEG-018",
+   "name": "Poivron vert",
+   "category": "Fruits et légumes",
+   "unit": "kg"
+  },
+  {
+   "reference": "LEG-019",
+   "name": "Salade",
+   "category": "Fruits et légumes",
+   "unit": "bassine"
+  },
+  {
+   "reference": "LEG-020",
+   "name": "Tomate fraiche",
+   "category": "Fruits et légumes",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-003",
+   "name": "Ail",
+   "category": "Produits secs",
+   "unit": "carton"
+  },
+  {
+   "reference": "SEC-004",
+   "name": "Amora",
+   "category": "Produits secs",
+   "unit": "carton"
+  },
+  {
+   "reference": "SEC-005",
+   "name": "Ataya",
+   "category": "Produits secs",
+   "unit": "paquet"
+  },
+  {
+   "reference": "SEC-006",
+   "name": "Athieke",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-009",
+   "name": "Bouye",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-011",
+   "name": "Calamar",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-012",
+   "name": "Canette pressesa",
+   "category": "Produits secs",
+   "unit": "pack"
+  },
+  {
+   "reference": "SEC-013",
+   "name": "Carry",
+   "category": "Produits secs",
+   "unit": "pack"
+  },
+  {
+   "reference": "SEC-014",
+   "name": "Champignon",
+   "category": "Produits secs",
+   "unit": "pot"
+  },
+  {
+   "reference": "SEC-015",
+   "name": "Citron liquide",
+   "category": "Produits secs",
+   "unit": "l"
+  },
+  {
+   "reference": "SEC-017",
+   "name": "Creme liquide",
+   "category": "Produits secs",
+   "unit": "l"
+  },
+  {
+   "reference": "SEC-018",
+   "name": "Crevette n°1",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-019",
+   "name": "Crevette n°2",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-021",
+   "name": "Curcuman",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-023",
+   "name": "Epice curry",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-024",
+   "name": "Epice paprika",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-025",
+   "name": "Epice thyn",
+   "category": "Produits secs",
+   "unit": "piece"
+  },
+  {
+   "reference": "SEC-026",
+   "name": "Essence menthe",
+   "category": "Produits secs",
+   "unit": "paquet"
+  },
+  {
+   "reference": "SEC-027",
+   "name": "Essence vanille",
+   "category": "Produits secs",
+   "unit": "paquet"
+  },
+  {
+   "reference": "SEC-028",
+   "name": "Farine patissier",
+   "category": "Produits secs",
+   "unit": "sac"
+  },
+  {
+   "reference": "SEC-029",
+   "name": "Fleur d'orange",
+   "category": "Produits secs",
+   "unit": "paquet"
+  },
+  {
+   "reference": "SEC-030",
+   "name": "Foster mangue",
+   "category": "Produits secs",
+   "unit": "paquet"
+  },
+  {
+   "reference": "SEC-031",
+   "name": "Foster vimto",
+   "category": "Produits secs",
+   "unit": "paquet"
+  },
+  {
+   "reference": "SEC-035",
+   "name": "Herbe de province",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-039",
+   "name": "Jambon",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-040",
+   "name": "Ketchup",
+   "category": "Produits secs",
+   "unit": "bouteille"
+  },
+  {
+   "reference": "SEC-041",
+   "name": "Lait en poudre",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-042",
+   "name": "Laurier",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-043",
+   "name": "Lentille",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-045",
+   "name": "Maicedoine",
+   "category": "Produits secs",
+   "unit": "carton"
+  },
+  {
+   "reference": "SEC-046",
+   "name": "Mayonnaise",
+   "category": "Produits secs",
+   "unit": "seau"
+  },
+  {
+   "reference": "SEC-047",
+   "name": "Moutarde",
+   "category": "Produits secs",
+   "unit": "seau"
+  },
+  {
+   "reference": "SEC-048",
+   "name": "Netetou en poudre",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-049",
+   "name": "Niebe",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-050",
+   "name": "Noflaye",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-051",
+   "name": "Œuf",
+   "category": "Produits secs",
+   "unit": "tablette"
+  },
+  {
+   "reference": "SEC-052",
+   "name": "Oignon blanc",
+   "category": "Produits secs",
+   "unit": "pack"
+  },
+  {
+   "reference": "SEC-053",
+   "name": "Oignon locale",
+   "category": "Produits secs",
+   "unit": "sac"
+  },
+  {
+   "reference": "SEC-054",
+   "name": "Olive",
+   "category": "Produits secs",
+   "unit": "pack"
+  },
+  {
+   "reference": "SEC-055",
+   "name": "Olive noire gm",
+   "category": "Produits secs",
+   "unit": "pot"
+  },
+  {
+   "reference": "SEC-056",
+   "name": "Oro",
+   "category": "Produits secs",
+   "unit": "pack"
+  },
+  {
+   "reference": "SEC-057",
+   "name": "Pain arabe",
+   "category": "Produits secs",
+   "unit": "paquet"
+  },
+  {
+   "reference": "SEC-058",
+   "name": "Pate d'arachide",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-059",
+   "name": "Petit pois",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-060",
+   "name": "Piment en poudre",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-061",
+   "name": "Poisson frire",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-063",
+   "name": "Pomme de terre",
+   "category": "Produits secs",
+   "unit": "sac"
+  },
+  {
+   "reference": "SEC-065",
+   "name": "Riz parfume pithibi",
+   "category": "Produits secs",
+   "unit": "sac"
+  },
+  {
+   "reference": "SEC-066",
+   "name": "Sauce algerienne",
+   "category": "Produits secs",
+   "unit": "seau"
+  },
+  {
+   "reference": "SEC-067",
+   "name": "Sauce chili",
+   "category": "Produits secs",
+   "unit": "bouteille"
+  },
+  {
+   "reference": "SEC-068",
+   "name": "Saucisson",
+   "category": "Produits secs",
+   "unit": "barre"
+  },
+  {
+   "reference": "SEC-069",
+   "name": "Sel grain",
+   "category": "Produits secs",
+   "unit": "sac"
+  },
+  {
+   "reference": "SEC-070",
+   "name": "Soja",
+   "category": "Produits secs",
+   "unit": "bouteille"
+  },
+  {
+   "reference": "SEC-071",
+   "name": "Spaguetty",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-072",
+   "name": "Sucre en morceaux",
+   "category": "Produits secs",
+   "unit": "piece"
+  },
+  {
+   "reference": "SEC-073",
+   "name": "Sucre en poudre",
+   "category": "Produits secs",
+   "unit": "sac"
+  },
+  {
+   "reference": "SEC-074",
+   "name": "Sunquick",
+   "category": "Produits secs",
+   "unit": "carton"
+  },
+  {
+   "reference": "SEC-075",
+   "name": "Tacos",
+   "category": "Produits secs",
+   "unit": "carton"
+  },
+  {
+   "reference": "SEC-076",
+   "name": "Tamarin",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-077",
+   "name": "Tandori",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-078",
+   "name": "Thon",
+   "category": "Produits secs",
+   "unit": "pot"
+  },
+  {
+   "reference": "SEC-079",
+   "name": "Tomate concentree",
+   "category": "Produits secs",
+   "unit": "pack"
+  },
+  {
+   "reference": "SEC-080",
+   "name": "Vermicelle",
+   "category": "Produits secs",
+   "unit": "kg"
+  },
+  {
+   "reference": "SEC-081",
+   "name": "Vinaigre",
+   "category": "Produits secs",
+   "unit": "carton"
+  }
+ ]
+}

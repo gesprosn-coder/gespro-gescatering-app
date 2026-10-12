@@ -1,46 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
   <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
+    Chemin de base. Remplacé par la valeur de `--base-href` à la compilation :
+    « / » pour un domaine propre, « /gespro-gescatering-app/ » pour GitHub Pages.
   -->
   <base href="/gespro-gescatering-app/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="SESA CATERING — gestion des opérations">
+  <meta name="theme-color" content="#1B4F89">
 
-  <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="SESA CATERING">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
   <title>SESA CATERING</title>
   <link rel="manifest" href="manifest.json">
+
+  <!--
+    ÉCRAN D'ATTENTE — en HTML pur, donc peint en moins d'une seconde.
+
+    L'application pèse environ 1 Mo et le moteur graphique autant. Sur une
+    connexion faible, le premier chargement prend une minute : sans cet
+    écran, l'utilisateur ne voit qu'une page BLANCHE et conclut — à juste
+    titre — que le site est en panne. C'est exactement ce qui s'est passé
+    le 12/10/2026.
+
+    Il s'efface au premier rendu de Flutter (événement `flutter-first-frame`),
+    avec un repli par minuterie au cas où l'événement n'arriverait pas.
+  -->
+  <style>
+    :root { --navy: #1B4F89; --sky: #1F74AE; --fond: #F3F5F8; --gris: #4B5563; }
+    html, body { margin: 0; padding: 0; height: 100%; background: var(--fond); }
+    #attente {
+      position: fixed; inset: 0; z-index: 9999;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 18px; padding: 24px; box-sizing: border-box;
+      background: var(--fond);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      text-align: center;
+      transition: opacity .35s ease;
+    }
+    #attente.parti { opacity: 0; pointer-events: none; }
+    #attente .marque { font-size: 30px; font-weight: 800; color: var(--navy); letter-spacing: .5px; }
+    #attente .sous { font-size: 15px; color: var(--gris); max-width: 22rem; line-height: 1.5; }
+    #attente .barre {
+      width: min(260px, 70vw); height: 6px; border-radius: 3px;
+      background: #DCE3EC; overflow: hidden;
+    }
+    #attente .barre i {
+      display: block; height: 100%; width: 40%; border-radius: 3px;
+      background: linear-gradient(90deg, var(--sky), var(--navy));
+      animation: glisse 1.4s ease-in-out infinite;
+    }
+    @keyframes glisse {
+      0%   { transform: translateX(-100%); }
+      100% { transform: translateX(260%); }
+    }
+    /* Une animation qui bouge sans cesse fatigue : on la calme si le
+       système le demande, sans faire disparaître l'indication. */
+    @media (prefers-reduced-motion: reduce) {
+      #attente .barre i { animation: none; width: 100%; opacity: .6; }
+      #attente { transition: none; }
+    }
+    #attente .lent { font-size: 13px; color: var(--gris); opacity: 0; transition: opacity .4s ease; }
+    #attente .lent.visible { opacity: 1; }
+  </style>
 </head>
 <body>
-  <!--
-    You can customize the "flutter_bootstrap.js" script.
-    This is useful to provide a custom configuration to the Flutter loader
-    or to give the user feedback during the initialization process.
+  <div id="attente" role="status" aria-live="polite">
+    <div class="marque">SESA CATERING</div>
+    <div class="barre"><i></i></div>
+    <div class="sous">Chargement de l'application…</div>
+    <div class="lent" id="lent">
+      Le premier chargement peut prendre une minute sur une connexion lente.
+      Les fois suivantes seront immédiates.
+    </div>
+  </div>
 
-    For more details:
-    * https://docs.flutter.dev/platform-integration/web/initialization
-  -->
+  <script>
+    (function () {
+      var ecran = document.getElementById('attente');
+      // Au bout de 6 s, on explique l'attente plutôt que de la laisser muette.
+      var minuterie = setTimeout(function () {
+        var l = document.getElementById('lent');
+        if (l) l.className = 'lent visible';
+      }, 6000);
+
+      function effacer() {
+        clearTimeout(minuterie);
+        if (!ecran || ecran.classList.contains('parti')) return;
+        ecran.classList.add('parti');
+        setTimeout(function () { if (ecran && ecran.parentNode) ecran.parentNode.removeChild(ecran); }, 400);
+      }
+      window.addEventListener('flutter-first-frame', effacer);
+      // Repli : si l'événement n'arrive pas, on ne laisse pas l'écran
+      // d'attente masquer une application qui tourne.
+      setTimeout(effacer, 180000);
+    })();
+  </script>
+
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
